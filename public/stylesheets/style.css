@@ -1,8 +1,224 @@
 body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header {
+  background: #333;
+  color: #fff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #bbb 1px solid;
+}
+
+header a {
+  color: #fff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li {
+  float: left;
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding {
+  float: left;
+}
+
+header #branding h1 {
+  margin: 0;
+}
+
+header nav {
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.2em;
+}
+
+em {
+  color: #e8491d;
+  font-weight: bold;
+}
+
+b {
+  font-weight: bold;
 }
 
 a {
-  color: #00B7FF;
+  color: #333;
+  text-decoration: none;
 }
+
+a:hover {
+  color: #e8491d;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+.skills-container {
+  max-width: 800px;
+  margin: 2em auto;
+  background: white;
+  padding: 2em;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+.skills-container h1 {
+  color: #333;
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.skills-container a {
+  text-decoration: none;
+  color: white;
+  background-color: #5cb85c; 
+  padding: 10px 15px;
+  border-radius: 5px;
+  margin-right: 8px;
+  display: inline-block;
+}
+
+.skills-container a:hover {
+  background-color: #4cae4c; 
+}
+
+.skills-container ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.skills-container li {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skills-container li:last-child {
+  border-bottom: none;
+}
+
+.skills-container form {
+  display: inline;
+}
+
+button {
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-link {
+  background-color: #f0ad4e; 
+}
+
+.edit-link:hover {
+  background-color: #ec971f; 
+}
+
+.delete-button {
+  background-color: #d9534f; 
+}
+
+.delete-button:hover {
+  background-color: #c9302c; 
+}
+
+.form-container {
+  width: 100%;
+  max-width: 600px;
+  background: #fff;
+  padding: 20px;
+  margin: 40px auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 5px;
+}
+
+.skill-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-group input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 4px;
+  border: 1px solid #ddd;
+  font-size: 16px;
+}
+
+.btn {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  background-color: #5cb85c;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+input[type="submit"].btn,
+button.btn {
+  width: auto;
+  margin-top: 10px;
+}
+
